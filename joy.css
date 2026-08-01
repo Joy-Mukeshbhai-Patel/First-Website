@@ -1,0 +1,33 @@
+.joy {
+    background-color: rgb(23, 5, 231);
+    border: 100px solid #cccccc4a;
+    padding: 50px;
+    font-weight: 900px;   
+}
+.patel {
+    background-color: rgb(10, 10, 10);
+    border: 10px solid #cccccc4a;
+    padding: 20px;
+    font-weight: 900px;   
+    color: white;
+    text-align: center;
+    background-image: url(https://wallpapercave.com/wp/wp15611262.webp);
+    background-size: cover;
+    background-position: center;
+}
+.button {
+    border-radius: 20px;
+    background-color: red;
+    font-weight: 100;
+    color: white;
+    font-weight: 600;
+}
+.button:hover {
+    background-color:black;
+}
+.form-control {
+    border-radius: 20px;
+}
+.label{
+    border-radius: 20px;
+}
