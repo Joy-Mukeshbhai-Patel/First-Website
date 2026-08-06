@@ -1,33 +1,89 @@
 .joy {
-    background-color: rgb(23, 5, 231);
-    border: 100px solid #cccccc4a;
+    background: linear-gradient(red, yellow);
+    border: 100px #0707084a;
     padding: 50px;
-    font-weight: 900px;   
+    font-weight: 900;   
 }
 .patel {
-    background-color: rgb(10, 10, 10);
-    border: 10px solid #cccccc4a;
+    background: linear-gradient(blue,purple);
+    border: 10px;
     padding: 20px;
     font-weight: 900px;   
-    color: white;
+    color: black;
     text-align: center;
-    background-size: cover;
-    background-position: center;
 }
 .button {
     border-radius: 20px;
-    background-color: red;
-    font-weight: 100;
-    color: white;
+    background: linear-gradient(red, blue);
     font-weight: 600;
+    filter: drop-shadow(0px 0px 10px #020b20);
+    animation: gradient_301 5s ease infinite;
+    transition-duration: 0.5s;
+    transition:all 0.3s ease;
+    border: double 4px transparent;
+    background-origin: border-box;
+    background-color: #00d2ff;
+    border:none;
+    padding: 10px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 .button:hover {
-    background-color:black;
-     transform:translate(y);
+    background: linear-gradient(black, white);
+    transform: scale(1.05);
+    box-shadow:0 4px 10px rgba(0, 0, 0, 0.2);
 }
 .form-control {
     border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 1px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 15%;
+    cursor: pointer;
 }
-.label{
+.joy2-group input[type="radio"] {
+    accent-color: green;
     border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.joy3-group input[type="radio"] {
+    accent-color: green;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+#file-input {
+    display: none;
+}
+.UploadFiles-filePicker {
+    display: inline-block;
+    padding: 10px 20px;
+    background: transparent;
+    padding: 10px 22px;
+    border:2px solid #ffffff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+.UploadFiles-filePicker:hover {
+    background:rgba(255, 255, 255, 0.15);
+    color: black;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+    transform: translateY(-2px);
 }
