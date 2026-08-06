@@ -21,11 +21,16 @@
         <br>
             Enter date: <input type="datetime-local" name="date">
         <br>
-        <input type="radio" name="gender" value="male"> Male
-        <input type="radio" name="gender" value="female"> Female
+        <div class="joy2-group">
+            <input type="radio" name="gender" value="male"class="joy3">Male
+        </div>
+        <div class="joy3-group">
+            <input type="radio" name="gender" value="female" class="joy2"> Female
+        </div>
         <br>
-        <label for="file-input" class="UploadFiles-filePicker"></label>
-        <input type="file" id="file-input" name="file-input">
+        <label for="file-input" class="UploadFiles-filePicker">Pick a file</label>
+        <input type="file" id="file-input" name="file-input" style="display: none;">
+        <br>
         <br>
         <button class="button" type="submit">Enter</button>
     </form>
